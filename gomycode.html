@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>gomycode</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <!--nav starts-->
-    <nav>
-      <a href="/home/">home</a>
-      <a href="/about/">about</a>
-      <a href="/work/">work</a>
-      <a href="/resume/">resume</a>
-      <a href="/contact/">contact</a>
+    <nav class="navbar">
+      <h1>My Portfolio</h1>
+      <ul class="navbar">
+        <li>Home</li>
+        <li>About</li>
+        <li>Work</li>
+        <li>Resume</li>
+        <li>Contact</li>
+      </ul>
     </nav>
     <!-- nav ends-->
     <img src="soldier.jpg" alt="soldier" />
@@ -62,20 +66,37 @@
       </section>
     </div>
     <!-- resume section ends. -->
-    <!--contact section starts-->
-
-    <section id="contact">
-      <h2>contact</h2>
-      <img src="gmail.jpg" height="50" width="50" alt="gmail" />
-      <img src="download.jpg" height="45" width="45" alt="instagram" />
-
-      <div>
-        <a href="mailto:faboyoj@gmail.com">MAIL</a>
-      </div>
-      <a href="https://https://www.instagram.com/boj.dgs/">instagram</a>
+    <!--Table section-->
+    <section>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Full Name</td>
+          <td>Joshua Faboyo</td>
+        </tr>
+        <tr>
+          <td>Age</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Major</td>
+          <td>Mechanical Engineering</td>
+        </tr>
+        <tr>
+          <td>Hobbies</td>
+          <td>Reading, Coding, and Playing Video Games</td>
+        </tr>
+        <tr>
+          <td>Skills</td>
+          <td>HTML, CSS, JavaScript</td>
+        </tr>
+      </table>
     </section>
+    <!--table section ends-->
 
-    <!--contact section ends-->
     <!--youtube video start-->
     <iframe
       width="400"
@@ -87,7 +108,18 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
-    <!--youtube video end-->
+    <!--youtube video end--><!--contact section starts-->
+
+    <section id="contact">
+      <h2>contact</h2>
+      <img src="icon-twitter.svg" height="36" width="50" alt="twitter" />
+      <img src="icon-instagram.svg" height="36" width="36" alt="instagram" />
+      <p>
+        <a href="https://https://www.instagram.com/boj.dgs/">instagram</a>
+      </p>
+    </section>
+
+    <!--contact section ends-->
     <!--footer begins-->
     <br />
     <footer>&copy;2025 MyWebsite All rights served</footer>
